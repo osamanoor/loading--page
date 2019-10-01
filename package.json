@@ -1,0 +1,16 @@
+{
+  "name": "loading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://osamanoor.github.io/landing",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
