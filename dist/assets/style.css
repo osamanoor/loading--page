@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+}
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loader img {
+  width: 128px;
+}
+
+.loader {
+  width: 128px;
+  height: 128px;
+  margin: 0 auto;
+  animation: spin 3s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600px;
+}
